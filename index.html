@@ -2,83 +2,72 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Barco do Amor | João Pessoa</title>
+  <title>Barco do Amor – João Pessoa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
+      font-family: Arial, sans-serif;
       background: #f5f5f5;
       color: #333;
     }
-
     header {
-      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      background: #c62828;
       color: white;
-      padding: 30px 20px;
       text-align: center;
+      padding: 40px 20px;
     }
-
     section {
       padding: 30px 20px;
       max-width: 900px;
       margin: auto;
     }
-
     h2 {
-      text-align: center;
-      margin-bottom: 20px;
+      color: #c62828;
     }
-
     .preco {
       background: white;
       padding: 25px;
-      border-radius: 12px;
+      border-radius: 10px;
       text-align: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      font-size: 20px;
     }
-
-    .preco span {
-      font-size: 32px;
-      color: #0077b6;
-      font-weight: bold;
+    .preco strong {
+      font-size: 28px;
+      color: #2e7d32;
     }
-
     .botao {
       display: inline-block;
-      margin-top: 15px;
+      margin-top: 20px;
       background: #25d366;
       color: white;
-      padding: 14px 22px;
-      border-radius: 30px;
+      padding: 15px 25px;
       text-decoration: none;
+      border-radius: 30px;
       font-weight: bold;
     }
-
-    .cartas {
+    .comentarios {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 15px;
+      gap: 20px;
+      margin-top: 20px;
     }
-
-    .cartao {
+    .comentario {
       background: white;
-      padding: 18px;
+      padding: 15px;
       border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-
     footer {
-      background: #023e8a;
+      background: #333;
       color: white;
       text-align: center;
       padding: 20px;
-      margin-top: 30px;
+      margin-top: 40px;
     }
   </style>
 </head>
-
 <body>
 
 <header>
@@ -89,47 +78,52 @@
 <section>
   <h2>💙 Sobre o passeio</h2>
   <p>
-    O Barco do Amor leva você e sua família para um passeio incrível pelo mar de João Pessoa,
-    com paradas para banho, diversão e paisagens lindas.
+    O <strong>Barco do Amor</strong> é um passeio perfeito para famílias, casais e amigos.
+    Navegamos pelas águas de João Pessoa com paradas para banho e muita diversão.
   </p>
+  <p>
+    O passeio tem duração média de <strong>3 a 3h30</strong> e inclui:
+  </p>
+  <ul>
+    <li>✔️ Caiaque</li>
+    <li>✔️ Stand up paddle</li>
+    <li>✔️ Toboágua</li>
+    <li>✔️ Fotos incríveis</li>
+  </ul>
 </section>
 
 <section>
-  <h2>💰 Valor do passeio</h2>
-
+  <h2>💰 Valor</h2>
   <div class="preco">
     <p>Valor por pessoa</p>
-    <span>R$ 100,00</span>
+    <strong>R$ 100,00</strong>
     <br>
     <a class="botao" href="https://wa.me/5583991806881" target="_blank">
-      📲 Reservar pelo WhatsApp
+      Reservar pelo WhatsApp
     </a>
   </div>
 </section>
 
 <section>
   <h2>⭐ O que nossos clientes dizem</h2>
-
-  <div class="cartas">
-    <div class="cartao">
+  <div class="comentarios">
+    <div class="comentario">
       <p>“Passeio maravilhoso! Organização impecável e vista linda.”</p>
       <strong>— Isabela | João Pessoa</strong>
     </div>
-
-    <div class="cartao">
+    <div class="comentario">
       <p>“Fui com minha família e foi perfeito. As crianças amaram!”</p>
       <strong>— Vinícius | Campina Grande</strong>
     </div>
-
-    <div class="cartao">
-      <p>“Experiência incrível! Atendimento excelente do começo ao fim.”</p>
+    <div class="comentario">
+      <p>“Experiência incrível! Atendimento excelente.”</p>
       <strong>— Juliana | Bahia</strong>
     </div>
   </div>
 </section>
 
 <footer>
-  <p>📍 João Pessoa - PB</p>
+  <p>📍 João Pessoa – PB</p>
   <p>📲 Atendimento via WhatsApp</p>
 </footer>
 
